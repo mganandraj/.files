@@ -1,0 +1,10 @@
+alias ll='ls -al'
+alias la='ls -A'
+alias l='ls -CF'
+
+alias 'ps?'='ps -ef | grep -i '
+alias 'file?'='find . | grep -i'
+
+alias g='git'
+
+alias sudo="sudo "
