@@ -1,7 +1,5 @@
 #!/bin/bash
 
-LSB_RELEASE=$(lsb_release -rs)
-
 # Install Powershell
 apt-get install -y powershell
 

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt-get install -y --no-install-recommends make
+
 # Install LTS Node.js and related build tools
 curl -sL https://git.io/n-install | bash -s -- -ny -
 ~/n/bin/n lts

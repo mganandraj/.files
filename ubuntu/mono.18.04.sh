@@ -1,7 +1,8 @@
 
 #!/bin/bash
 
-LSB_CODENAME=$(lsb_release -cs)
+# LSB_CODENAME=$(lsb_release -cs)
+LSB_CODENAME=18.04
 
 # Test to see if the software in question is already installed, if not install it
 # wget "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF" -O out && sudo apt-key add out && rm out
