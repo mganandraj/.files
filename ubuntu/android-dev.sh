@@ -8,6 +8,10 @@
 # source $HELPER_SCRIPTS/document.sh
 # source $HELPER_SCRIPTS/apt.sh
 
+# pre-requisite
+apt-get install -y --no-install-recommends unzip
+apt-get install -y --no-install-recommends wget
+
 # Set env variable for SDK Root (https://developer.android.com/studio/command-line/variables)
 ANDROID_ROOT=/usr/local/lib/android
 ANDROID_SDK_ROOT=${ANDROID_ROOT}/sdk
