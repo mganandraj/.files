@@ -13,12 +13,12 @@ LSB_CODENAME=18.04
 # apt-get install -y --no-install-recommends apt-transport-https mono-complete
 
 # From https://www.mono-project.com/download/stable/#download-lin
-apt install gnupg ca-certificates
+apt-get install -y gnupg ca-certificates
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
 echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" | tee /etc/apt/sources.list.d/mono-official-stable.list
-apt update
+apt-get update
 
-apt install mono-devel
+apt-get install -y mono-devel
 
 # Run tests to determine that the software installed as expected
 echo "Testing to make sure that script performed as expected, and basic scenarios work"
